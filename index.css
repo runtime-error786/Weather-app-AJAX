@@ -1,0 +1,158 @@
+
+body{
+    background-image: url("weather.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#search{
+    height: 40px;
+    width: 400px;
+    background-color: transparent;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    color: aliceblue;
+}
+
+#btn{
+    height: 40px;
+    width: 100px;
+    background-color: orange;
+}
+
+#parent{
+
+    width: 500px;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 20px 20px;
+    color: white;
+}
+
+#child1{
+   
+   display: flex;
+   justify-content: space-between;
+}
+
+::placeholder {
+    color: aliceblue; 
+    font-size: large;
+}
+
+
+#child2{
+   
+    text-align: center;
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+
+#feellike{
+   
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #humidity{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #temp{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #Pressure{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #tempmax{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #tempmin{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #visible{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ h1,h2,h3,h4,h5,h6{
+    color: white;
+ }
+
+ @media screen and (max-width: 1025px) {
+    #parent{
+
+        width: 500px;
+        position: absolute;
+        left: 270px;
+        top: 100px;
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 20px 20px;
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    #parent{
+
+        width: 400px;
+        position: absolute;
+        left: 200px;
+        top: 100px;
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 20px 20px;
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    #parent{
+
+        width: 400px;
+        position: absolute;
+        left: 200px;
+        top: 100px;
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 20px 20px;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    #parent{
+
+        width: 400px;
+        position: absolute;
+        left: 12px;
+        top: 100px;
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 20px 20px;
+    }
+  }
+
+  @media screen and (max-width: 376px) {
+    #parent{
+
+        width: 400px;
+        position: absolute;
+        left: 5px;
+        top: 100px;
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 20px 20px;
+    }
+  }
